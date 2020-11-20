@@ -1,1 +1,26 @@
-/* Add your own styles */
+img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    opacity: 0.1;
+    border-radius: 100%;
+}
+#header{
+    display: flex;
+    background-color: rgb(33, 33, 87);
+    justify-content: center;
+}
+h1{
+    color: white;
+    float: right;
+    padding-top: 50px;
+}
+#controls{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: rgb(1, 48, 255);
+    border-radius: 5px;
+}

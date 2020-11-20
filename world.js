@@ -7,6 +7,7 @@ function countrySearch(){
             alert(this.responseText);
         }
     };
-    httprequest.open("GET",URL,true);
+    var url = "world.php?country="+query;
+    httprequest.open("GET",url,true);
     httprequest.send("");
 }

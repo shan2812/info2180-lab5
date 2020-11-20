@@ -1,32 +1,26 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 	<head>
         <meta charset="utf-8">
 		<title>World Database Lookup</title>
-
-		<!-- you can modify this as needed or to your preference -->
 		<link href="world.css" type="text/css" rel="stylesheet" />
-
-		<!-- you write this -->
 		<script src="world.js" type="text/javascript"></script>
 	</head>
-
 	<body>
-		<header>
-			<h1>World Database Lookup</h1>
-		</header>
-
+		<div id="header">
+			<header>
+				<img src="../info2180-lab5/world.png" alt="picture of world">
+				<h1>World Database Lookup</h1>
+			</header>
+		</div>
 		<main>
 			<div id="controls">
 				<label for="country">Country:</label>
-				<input id="country" type="search" name="country" placeholder="Enter country name" />
+				<input id="country" type="search" name="country" placeholder="Enter country name" value="Jamaica" />
 				<button onclick="countrySearch()" id="lookup">Lookup</button>
 			</div>
-			
 			<div id="result">
-				<!-- countries will appear here -->
 			</div>
 		</main>
-
 	</body>
 </html>
